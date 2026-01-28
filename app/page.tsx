@@ -71,7 +71,7 @@ export default function Home() {
             <a href="/" className="nav-link">Home</a>
           </li>
           <li className="nav-item">
-            <a href="/ourvision" className="nav-link">OurVision</a>
+            <a href="/ourvision" className="nav-link">Vision</a>
           </li>
           <li className="nav-item">
             <a href="/product" className="nav-link">Product</a>

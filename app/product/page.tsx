@@ -26,7 +26,7 @@ export default function ProductPage() {
               <Link href="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
-              <Link href="/ourvision" className="nav-link">OurVision</Link>
+              <Link href="/ourvision" className="nav-link">Vision</Link>
             </li>
             <li className="nav-item">
               <Link href="/product" className="nav-link">Product</Link>
@@ -93,7 +93,7 @@ export default function ProductPage() {
             <p className="product-concept-text">
               MediHive Coupler redefines vascular anastomosis<br />
               from a manual suturing skill into a structured coupling system.<br />
-              By reducing procedural complexity, it aims to enable consistent<br />
+              By reducing procedural complexity, it aims to enable consistent
               and reproducible anastomotic outcomes.
             </p>
           </div>

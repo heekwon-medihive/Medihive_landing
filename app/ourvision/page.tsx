@@ -26,7 +26,7 @@ export default function VisionPage() {
               <Link href="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
-              <Link href="/ourvision" className="nav-link">OurVision</Link>
+              <Link href="/ourvision" className="nav-link">Vision</Link>
             </li>
             <li className="nav-item">
               <Link href="/product" className="nav-link">Product</Link>
