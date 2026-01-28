@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 // Logo Component
 const Logo = () => (
@@ -70,7 +71,7 @@ export default function Home() {
             <a href="/" className="nav-link">Home</a>
           </li>
           <li className="nav-item">
-            <a href="#ourvision" className="nav-link">OurVision</a>
+            <a href="/ourvision" className="nav-link">OurVision</a>
           </li>
           <li className="nav-item">
             <a href="/product" className="nav-link">Product</a>
@@ -122,7 +123,9 @@ export default function Home() {
           {/* Buttons */}
           <div className="button-group">
             <button className="btn-outline">기술자료요청</button>
-            <button className="btn-filled">협업 문의</button>
+            <Link href="/contact">
+              <button className="btn-filled">협업 문의</button>
+            </Link>
           </div>
         </div>
 

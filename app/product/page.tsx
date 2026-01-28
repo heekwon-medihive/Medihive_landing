@@ -26,7 +26,7 @@ export default function ProductPage() {
               <Link href="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
-              <a href="#ourvision" className="nav-link">OurVision</a>
+              <Link href="/ourvision" className="nav-link">OurVision</Link>
             </li>
             <li className="nav-item">
               <Link href="/product" className="nav-link">Product</Link>
